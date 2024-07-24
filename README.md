@@ -12,16 +12,16 @@ El prototipo fue realizado en Canva y es una idea de lo queríamos realizar para
 ## Historias de usuarias
 Estas son algunas de las preguntas que respondimos para cumplir los requerimientos del usuario:
 
-¿Quiénes son las principales usuarias del producto?
+- **¿Quiénes son las principales usuarias del producto?**
 Adultos jóvenes que sean fanáticos de las películas de Disney y que quieran buscar una película con alguna enseñanza de fondo.
-¿Cuáles son los objetivos de estas usuarias en relación con el producto?
+- **¿Cuáles son los objetivos de estas usuarias en relación con el producto?**
 Obtener información de películas de manera rápida, dinámica y simple, todo en un mismo lugar.
-¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?
+- **¿Cuáles son los datos más relevantes que quieren ver en la interfaz y por qué?**
 Nombre: búsqueda alfabéticamente, para aquellos que no recuerden bien el nombre de la película, pero sí cómo empieza. O para aquellos que quieren buscar información directamente por el nombre.
 Años: seleccionar películas según la época en que fueron creadas. 
 Enseñanza: una clasificación para aquellos que no saben que ver específicamente, pero si quieren profundizar una temática en particular
 Ranking: buscar de acuerdo a la opinión pública.
-¿Cuándo utilizan o utilizarían el producto?
+- **¿Cuándo utilizan o utilizarían el producto?**
 Para tener más información de las películas que les gustan cómo la duración, las reseñas y algunas curiosidades.
 
 ## Opiniones de posibles usuarias
@@ -39,8 +39,8 @@ Al momento de identificar la información necesaria para crear nuestra página w
 *“Eres una persona que le gustan mucho las películas de Disney y Pixar desde pequeño y deseas buscar información de las películas que te gustan para aumentar el conocimiento de ellas.
 Genera una reseña de la película “Elemental” que sea breve para que pueda ser compartida de manera informativa en una página web. Debe incluir los siguientes datos: una descripción breve de la película, una descripción larga, año de estreno, duración en minutos, clasificación de qué género es, clasificación del público y una clasificación de enseñanza que entrega pero definida en una palabra y un dato curioso.                                                
 Utiliza un lenguaje informativo, cordial y motivador pero que no sea tan extenso.”*
-
-IMAGENES DEL PROMPTING EN CHAT GPT PONER AQUÍ
+![prompting1](prompting_1.jpg)
+![prompting2](prompting_2.jpg)
 
 ## Filtrado, orden y datos estadísticos 
 
@@ -48,10 +48,10 @@ Al momento de organizar qué filtrado podríamos realizar, decidimos realizarlo 
 
 Ejemplo de cómo organizamos las películas para el filtrado:  
 
-**Películas 90´s:** 1995, 1998, 1993, 1999, 1997.
-**Películas 2000´s:** 2009, 2007, 2008, 2004, 2002, 2001, 2002, 2009.
-**Películas 2010´s:** 2017, 2016, 2015, 2014, 2013, 2010.
-**Películas 2020´s:** 2023, 2022, 2020, 2021.
+- **Películas 90´s:** 1995, 1998, 1993, 1999, 1997.
+- **Películas 2000´s:** 2009, 2007, 2008, 2004, 2002, 2001, 2002, 2009.
+- **Películas 2010´s:** 2017, 2016, 2015, 2014, 2013, 2010.
+- **Películas 2020´s:** 2023, 2022, 2020, 2021.
 
 Y al momento de ordenar nuestras películas, decidimos realizar un orden ascendente y descendente de la data. En nuestro caso, la primera película sería Atlantis y la última es Wall-e. 
 
