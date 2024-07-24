@@ -84,6 +84,7 @@ h3 {
 
 .contenido-oculto{
   display: none;
+
 }
 
 #datosestadisticos {
@@ -245,7 +246,7 @@ footer {
   text-align: center;
 }
 
- #disneyinfo{
+ #root{
     margin-top: 32px;
     margin-bottom: 64px;
     max-width: 1400px;
