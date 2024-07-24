@@ -5,7 +5,7 @@ import data from "./data/dataset.js";
 import { filterData, sortData } from "./dataFunctions.js";
 import { computeStats, computeStatsNota } from "./dataFunctions.js";
 
-const elementos = document.getElementById("disneyinfo");
+const elementos = document.getElementById("root");
 const listaDePeliculas = renderItems(data);
 elementos.appendChild(listaDePeliculas);
 

@@ -4,7 +4,10 @@ export const renderItems = (data) => {
 
   data.forEach((pelicula) => {
     const li = document.createElement("li");
-    li.classList.add("tarjeta")
+    li.classList.add("tarjeta");
+    li.setAttribute("itemtype", "peliculasDisney");
+    li.setAttribute("itemscope", "true");
+    li.setAttribute("data-id", pelicula.id)
     li.innerHTML = `
     <div itemscope itemtype="peliculasDisneyPixar">
       <div class="tituloPeli"><h3 itemprop="name"> ${pelicula.name} </h3> </div>
