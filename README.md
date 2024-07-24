@@ -6,7 +6,8 @@ Nuestro proyecto se llama “Dreamland” el cual se utiliza para mostrar 24 tar
 **Temática:** Películas Disney y Pixar
 
 ## Prototipo
-Yo había ponido mi imagen aquí.
+El prototipo fue realizado en Canva y es una idea de lo queríamos realizar para nuestra página web:
+*[Prototipo](https://www.canva.com/design/DAGIDX168lo/8HFgsoo40mEwhIf2zRa78g/view?utm_content=DAGIDX168lo&utm_campaign=designshare&utm_medium=link&utm_source=editor)*
 
 ## Historias de usuarias
 Estas son algunas de las preguntas que respondimos para cumplir los requerimientos del usuario:
